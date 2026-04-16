@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punisher: Essential Readings</title>
+    <style>
+        /* UNIVERSAL SETTINGS */
+        body { 
+            font-family: monospace; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px 25px; 
+            line-height: 1.6;
+            background-color: #ffffff;
+            color: #000000;
+            -webkit-text-size-adjust: 100%;
+        }
+        
+        h1 { 
+            text-align: center; 
+            margin-top: 20px; 
+            margin-bottom: 10px; 
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+
+        .language-selector {
+            text-align: center;
+            font-size: 0.7rem;
+            letter-spacing: 1.5px;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+        }
+
+        .language-selector a, .language-selector strong {
+            display: inline-block;
+            padding: 4px 10px;
+            margin: 5px 2px;
+            border-radius: 2px;
+            text-decoration: none;
+        }
+
+        .language-selector a {
+            color: #888888;
+            border: 1px solid #eeeeee;
+        }
+
+        .language-selector strong {
+            color: #000000;
+            border: 1px solid #888888;
+        }
+
+        h3 { 
+            text-align: center; 
+            margin-top: 40px; 
+            margin-bottom: 25px; 
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        p { 
+            text-align: justify; 
+            text-justify: inter-word; 
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 15px 18px; 
+            }
+            h1 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Punisher: Essential Readings</h1>
+
+    <div class="language-selector">
+        <a href="punisher101_it.html">IT</a> <strong>EN</strong>
+    </div>
+
+    <h3>1. Amazing Spider-Man (1973)</h3>
+    <p>
+        The Punisher debuted in 1973 within the pages of Amazing Spider-Man #129, 
+        created by Gerry Conway, John Romita, and Ross Andru. In a world populated 
+        by superheroes dressed in spandex and bright colors fighting for good, 
+        Frank Castle is an ex-marine and vigilante dressed in black with a skull 
+        on his chest, possessing a deeply personal concept of justice. 
+        After the massacre of his family in Central Park due to a gang shootout, 
+        Frank Castle decides to arm himself and fight crime as judge, jury, and executioner 
+        under the pseudonym "The Punisher." The Jackal hires him to 
+        eliminate his greatest adversary: Spider-Man.
+    </p>
+
+    <h3>2. Daredevil (1982)</h3>
+    <p>
+        Between the late '70s and early '80s, Frank Miller revolutionized 
+        the character of Daredevil, writing a cycle of stories with an urban 
+        and noir tone set in the smoky and disreputable Hell's Kitchen. After 
+        escaping from prison, Frank Castle tracks a group of drug dealers 
+        whose trade targets children and teenagers in Hell's Kitchen schools, 
+        clashing with Daredevil. This duel highlights the ideological difference 
+        between Matt Murdock and Frank Castle—between an unshakeable faith in 
+        law and rights, and someone who, having seen the distortions of a 
+        rotten and corrupt society, has decided to walk the path of personal justice. 
+        A fundamental run.
+    </p>
+
+    <h3>3. Punisher: Circle of Blood (1985)</h3>
+    <p>The first solo trial: Frank Castle takes full control of the scene.</p>
+
+    <h3>4. Punisher: War Journal (1988)</h3>
+    <p>The war journal: daily chronicles of a vigilante.</p>
+
+    <h3>5. Punisher (1990)</h3>
+    <p>The aesthetics and storytelling of the 90s at their peak.</p>
+
+    <h3>6. Punisher: Year One (1994)</h3>
+    <p>The trauma: how the Central Park tragedy created the monster.</p>
+
+    <h3>7. Punisher (2000)</h3>
+    <p><b>"Welcome Back, Frank"</b>: Ennis brings dark humor and madness to New York.</p>
+
+    <h3>8. Punisher: Born (2003)</h3>
+    <p>Vietnam: where Frank's soul died and the Punisher was born.</p>
+
+    <h3>9. Punisher Max (2004)</h3>
+    <p>Unfiltered: the gritty and nihilistic realism of the adult world.</p>
+
+    <h3>10. Punisher: The Slavers (2005)</h3>
+    <p>
+        After saving a young woman hunted by the mafia, Frank Castle 
+        soon realizes he has a very different case on his hands than 
+        what he's used to. Unlike classic gangsters seeking power, 
+        Frank stumbles upon a human trafficking ring from Eastern Europe 
+        led by Cristu Bulat and his father, a former Balkan war criminal 
+        who exploits and tortures women. Punisher dismantles the organization 
+        piece by piece, gear by gear, exposing the degradation and brutality 
+        of the human being. Garth Ennis and Leandro Fernández deliver one of 
+        the most violent stories ever written about the character. 
+        A descent into hell from which no one returns.
+    </p>
+
+</body>
+</html>
