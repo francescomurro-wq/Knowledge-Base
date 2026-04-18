@@ -7,7 +7,6 @@
         body { font-family: "Times New Roman", Times, serif; max-width: 950px; margin: 40px auto; padding: 20px; line-height: 1.5; color: #1a1a1a; background-color: #fdfdfd; }
         h1 { font-size: 1.8rem; text-decoration: underline; text-align: center; text-transform: uppercase; }
         
-        /* Menu per navigare nella storia */
         .nav-menu { text-align: center; margin-bottom: 40px; border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 10px; font-size: 0.8rem; }
         .nav-menu a { margin: 0 8px; text-decoration: none; color: #000; font-weight: bold; }
         .nav-menu a:hover { text-decoration: underline; }
@@ -18,16 +17,16 @@
         li { margin-bottom: 8px; padding: 5px; border-bottom: 1px dotted #ccc; display: flex; align-items: center; white-space: nowrap; }
         li:hover { background-color: #f4f4f4; }
 
-        /* Tag stilizzati (Colonne Excel) */
         .tag { font-size: 0.6rem; font-family: monospace; padding: 1px 4px; margin-left: 6px; border: 1px solid #000; text-transform: uppercase; flex-shrink: 0; }
         .tag-country { background-color: #eee; font-weight: bold; min-width: 25px; text-align: center; }
+        .tag-series { color: #fff; border: none; font-weight: bold; }
         .tag-media { background-color: #444; color: #fff; border: none; }
         .tag-type { border: 1px solid #999; color: #666; }
         .tag-status { border-style: dashed; color: #666; }
         .tag-timeline { background-color: #000; color: #fff; border: none; }
 
         .entry-text { flex-grow: 1; overflow: hidden; text-overflow: ellipsis; }
-        b { font-size: 1.05rem; text-transform: uppercase; color: #000; }
+        b { font-size: 1.05rem; text-transform: none; color: #000; }
 
         footer { margin-top: 100px; font-size: 0.8rem; text-align: center; border-top: 1px solid #eee; padding-top: 20px; }
     </style>
@@ -38,13 +37,14 @@
 
     <div class="nav-menu">
         <a href="#antichita">ANTICHITÀ</a> | <a href="#1300s">1300s</a> | <a href="#1500s">1500s</a> | 
-        <a href="#1800s">1800s</a> | <a href="#1980s">1980s</a> | <a href="#2000s">2000s</a> | <a href="#2020s">2020s</a>
+        <a href="#1700s">1700s</a> | <a href="#1800s">1800s</a> | <a href="#1980s">1980s</a> | 
+        <a href="#1990s">1990s</a> | <a href="#2000s">2000s</a> | <a href="#2020s">2020s</a>
     </div>
 
     <a name="antichita"></a>
     <div class="section-header">Antichità</div>
     <ul>
-        <li title="GENRE: Tragedy | NOTE: Una delle pietre miliari del teatro">
+        <li title="GENRE: Tragedy">
             <span class="entry-text"><b>Antigone</b>, Sofocle (441 AC)</span>
             <span class="tag tag-country">GR</span>
             <span class="tag tag-media">LITERATURE</span>
@@ -71,7 +71,7 @@
     <div class="section-header">1500s</div>
     <ul>
         <li title="GENRE: Political Philosophy">
-            <span class="entry-text"><b>Il Principe</b>, Niccolò Machiavelli (1532)</span>
+            <span class="entry-text"><b>Il principe</b>, Niccolò Machiavelli (1532)</span>
             <span class="tag tag-country">IT</span>
             <span class="tag tag-media">LITERATURE</span>
             <span class="tag tag-type">TREATISE</span>
@@ -80,11 +80,12 @@
         </li>
     </ul>
 
-    <a name="1800s"></a>
-    <div class="section-header">1800s</div>
+    <a name="1700s"></a>
+    <div class="section-header">1700s</div>
     <ul>
-        <li title="GENRE: Adventure | NOTE: Dal tuo Excel">
-            <span class="entry-text"><b>Robinson Crusoe</b>, Daniel Defoe (1719*)</span> <span class="tag tag-country">UK</span>
+        <li title="GENRE: Adventure | REAL RELEASE: 1719/04/25">
+            <span class="entry-text"><b>Robinson Crusoe</b>, Daniel Defoe (1719)</span>
+            <span class="tag tag-country">UK</span>
             <span class="tag tag-media">LITERATURE</span>
             <span class="tag tag-type">NOVEL</span>
             <span class="tag tag-status">WHISHLIST</span>
@@ -92,10 +93,15 @@
         </li>
     </ul>
 
+    <a name="1800s"></a>
+    <div class="section-header">1800s</div>
+    <ul>
+        </ul>
+
     <a name="1980s"></a>
     <div class="section-header">1980s</div>
     <ul>
-        <li title="GENRE: Superheroes, Noir">
+        <li title="RELEASE DATE: 1985/10/01 | SOURCE: GCD">
             <span class="entry-text"><b>Circle of Blood</b>, Steven Grant (1985)</span>
             <span class="tag tag-country">US</span>
             <span class="tag tag-media">COMICS</span>
@@ -103,11 +109,87 @@
             <span class="tag tag-status">COMPLETO</span>
             <span class="tag tag-timeline">MODERN</span>
         </li>
+        <li title="RELEASE DATE: 1986/10/21 | SOURCE: https://dc.fandom.com/wiki/Batman_Vol_1_404">
+            <span class="entry-text"><b>Batman</b>, Frank Miller & David Mazzucchelli (1986)</span>
+            <span class="tag tag-country">US</span>
+            <span class="tag tag-series" style="background-color: #0476d0;">DC</span>
+            <span class="tag tag-media">COMICS</span>
+            <span class="tag tag-type">RUN</span>
+            <span class="tag tag-status">COMPLETO</span>
+            <span class="tag tag-timeline">MODERN</span>
+        </li>
+        <li title="RELEASE DATE: 1989/03/06 | SOURCE: https://www.comics.org/issue/683100/">
+            <span class="entry-text"><b>Troubled Souls</b>, Garth Ennis & John McCrea (1989)</span>
+            <span class="tag tag-country">UK</span>
+            <span class="tag tag-series" style="background-color: #666;">FLEETWAY</span>
+            <span class="tag tag-media">COMICS</span>
+            <span class="tag tag-type">RUN</span>
+            <span class="tag tag-status">COMPLETO</span>
+            <span class="tag tag-timeline">MODERN</span>
+        </li>
     </ul>
+
+    <a name="1990s"></a>
+    <div class="section-header">1990s</div>
+    <ul>
+        <li title="RELEASE DATE: 1991/03/26 | SOURCE: https://dc.fandom.com/wiki/Hellblazer_Vol_1_41">
+            <span class="entry-text"><b>Hellblazer</b>, Garth Ennis & Will Simpson (1991)</span>
+            <span class="tag tag-country">UK</span>
+            <span class="tag tag-series" style="background-color: #0476d0;">DC</span>
+            <span class="tag tag-media">COMICS</span>
+            <span class="tag tag-type">RUN</span>
+            <span class="tag tag-status">COMPLETO</span>
+            <span class="tag tag-timeline">MODERN</span>
+        </li>
+        <li title="RELEASE DATE: 1993/08/17 | SOURCE: https://dc.fandom.com/wiki/The_Demon_Vol_3_40">
+            <span class="entry-text"><b>The Demon</b>, Garth Ennis & John McCrea (1993)</span>
+            <span class="tag tag-country">US</span>
+            <span class="tag tag-series" style="background-color: #0476d0;">DC</span>
+            <span class="tag tag-media">COMICS</span>
+            <span class="tag tag-type">RUN</span>
+            <span class="tag tag-status">COMPLETO</span>
+            <span class="tag tag-timeline">MODERN</span>
+        </li>
+        <li title="RELEASE DATE: 1995/03/14 | SOURCE: https://dc.fandom.com/wiki/Preacher_Vol_1_1">
+            <span class="entry-text"><b>Preacher</b>, Garth Ennis & Steve Dillon (1995)</span>
+            <span class="tag tag-country">US</span>
+            <span class="tag tag-series" style="background-color: #7d50a1;">VERTIGO</span>
+            <span class="tag tag-media">COMICS</span>
+            <span class="tag tag-type">RUN</span>
+            <span class="tag tag-status">COMPLETO</span>
+            <span class="tag tag-timeline">MODERN</span>
+        </li>
+        <li title="RELEASE DATE: 1996/03/20 | SOURCE: https://dc.fandom.com/wiki/Hitman_Vol_1_1">
+            <span class="entry-text"><b>Hitman</b>, Garth Ennis & John McCrea (1996)</span>
+            <span class="tag tag-country">US</span>
+            <span class="tag tag-series" style="background-color: #0476d0;">DC</span>
+            <span class="tag tag-media">COMICS</span>
+            <span class="tag tag-type">RUN</span>
+            <span class="tag tag-status">COMPLETO</span>
+            <span class="tag tag-timeline">MODERN</span>
+        </li>
+    </ul>
+
+    <a name="2000s"></a>
+    <div class="section-header">2000s</div>
+    <ul>
+        </ul>
 
     <a name="2020s"></a>
     <div class="section-header">2020s</div>
     <ul>
-        <li title="GENRE: Sci-Fi, Adventure | NOTE: Star Wars Canon">
-            <span class="entry-text"><b>Edge of the Abyss</b>, Rebecca Roanhorse (2026)</span>
-            <span class="tag tag-country
+        <li title="GENRE: Sci-Fi, Adventure | RELEASE: 2026/04/15">
+            <span class="entry-text"><b>Star Wars: Edge of the Abyss</b>, Rebecca Roanhorse (2026)</span>
+            <span class="tag tag-country">US</span>
+            <span class="tag tag-series" style="background-color: #ffe81f; color: black;">SW</span>
+            <span class="tag tag-media">LITERATURE</span>
+            <span class="tag tag-type">NOVEL</span>
+            <span class="tag tag-status">WHISHLIST</span>
+            <span class="tag tag-timeline">6 BBY</span>
+        </li>
+    </ul>
+
+    <footer><a href="#">Torna in cima ↑</a></footer>
+
+</body>
+</html>
