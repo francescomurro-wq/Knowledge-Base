@@ -7,25 +7,26 @@
         body { font-family: "Times New Roman", Times, serif; max-width: 950px; margin: 40px auto; padding: 20px; line-height: 1.5; color: #1a1a1a; background-color: #fdfdfd; }
         h1 { font-size: 1.8rem; text-decoration: underline; text-align: center; text-transform: uppercase; }
         
-        .nav-menu { text-align: center; margin-bottom: 40px; border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 10px; font-size: 0.9rem; }
-        .nav-menu a { margin: 0 10px; text-decoration: none; color: #000; font-weight: bold; }
+        /* Menu per saltare tra i secoli/decenni */
+        .nav-menu { text-align: center; margin-bottom: 40px; border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 10px; font-size: 0.8rem; }
+        .nav-menu a { margin: 0 8px; text-decoration: none; color: #000; font-weight: bold; }
 
-        .section-header { font-weight: bold; font-size: 1.3rem; margin-top: 40px; border-bottom: 2px solid #000; display: block; text-transform: uppercase; }
+        .section-header { font-weight: bold; font-size: 1.3rem; margin-top: 40px; border-bottom: 2px solid #000; display: block; text-transform: uppercase; background: #eee; padding: 5px 10px; }
         
         ul { list-style-type: none; padding-left: 0; }
-        li { margin-bottom: 8px; padding: 5px; border-bottom: 1px dotted #ccc; display: flex; align-items: center; flex-wrap: nowrap; white-space: nowrap; }
+        li { margin-bottom: 8px; padding: 5px; border-bottom: 1px dotted #ccc; display: flex; align-items: center; white-space: nowrap; }
         li:hover { background-color: #f4f4f4; }
 
         /* Tag stilizzati */
-        .tag { font-size: 0.6rem; font-family: monospace; padding: 1px 4px; margin-left: 6px; border: 1px solid #000; text-transform: uppercase; display: inline-block; flex-shrink: 0; }
+        .tag { font-size: 0.6rem; font-family: monospace; padding: 1px 4px; margin-left: 6px; border: 1px solid #000; text-transform: uppercase; flex-shrink: 0; }
         .tag-country { background-color: #eee; font-weight: bold; min-width: 25px; text-align: center; }
-        .tag-media { background-color: #444; color: #fff; border: none; } /* Media: Cinema, Literature... */
-        .tag-type { border: 1px solid #999; color: #666; } /* Type: Novel, Movie, Comic... */
+        .tag-media { background-color: #444; color: #fff; border: none; }
+        .tag-type { border: 1px solid #999; color: #666; }
         .tag-status { border-style: dashed; color: #666; }
         .tag-timeline { background-color: #000; color: #fff; border: none; }
 
         .entry-text { flex-grow: 1; overflow: hidden; text-overflow: ellipsis; }
-        b { font-size: 1.05rem; }
+        b { font-size: 1.05rem; text-transform: uppercase; } /* Titolo in maiuscolo per risaltare */
 
         footer { margin-top: 100px; font-size: 0.8rem; text-align: center; border-top: 1px solid #eee; padding-top: 20px; }
     </style>
@@ -35,37 +36,53 @@
     <h1>Log Cronologico Visioni e Letture</h1>
 
     <div class="nav-menu">
-        SALTA A: <a href="#2026">2026</a> | <a href="#antichita">ANTICHITÀ</a>
+        <a href="#2020s">2020s</a> | <a href="#1980s">1980s</a> | <a href="#1800s">1800s</a> | <a href="#1500s">1500s</a> | <a href="#antichita">ANTICHITÀ</a>
     </div>
 
-    <a name="2026"></a>
-    <div class="section-header">2026</div>
+    <a name="2020s"></a>
+    <div class="section-header">2020s</div>
     <ul>
-        <li title="GENRE: Genre_Here | NOTE: Note_Here">
-            <span class="entry-text">Autore: <b>Titolo Originale</b> (Anno)</span>
-            <span class="tag tag-country">US</span>
-            <span class="tag tag-media">LITERATURE</span>
-            <span class="tag tag-type">NOVEL</span>
-            <span class="tag tag-status">COMPLETO</span>
-            <span class="tag tag-timeline">TIMELINE</span>
-        </li>
-
-        <li title="GENRE: Sci-Fi, Adventure | LINK: wiki/Edge_of_the_Abyss">
-            <span class="entry-text">Rebecca Roanhorse: <b>Edge of the Abyss</b> (2026)</span>
+        <li title="GENRE: Sci-Fi, Adventure">
+            <span class="entry-text"><b>Edge of the Abyss</b>, Rebecca Roanhorse (2026)</span>
             <span class="tag tag-country">US</span>
             <span class="tag tag-media">LITERATURE</span>
             <span class="tag tag-type">NOVEL</span>
             <span class="tag tag-status">WHISHLIST</span>
             <span class="tag tag-timeline">6 BBY</span>
         </li>
-
-        <li title="GENRE: Animation, Cyberpunk, Thriller">
-            <span class="entry-text">Mokochan: <b>Kōkaku Kidōtai</b> (2026)</span>
-            <span class="tag tag-country">JP</span>
-            <span class="tag tag-media">CINEMA</span>
-            <span class="tag tag-type">TV SERIES</span>
+        <li title="GENRE: Superheroes">
+            <span class="entry-text"><b>Absolute Catwoman</b>, Scott Snyder (2026)</span>
+            <span class="tag tag-country">US</span>
+            <span class="tag tag-media">COMICS</span>
+            <span class="tag tag-type">ISSUE</span>
             <span class="tag tag-status">WHISHLIST</span>
             <span class="tag tag-timeline">MODERN</span>
+        </li>
+    </ul>
+
+    <a name="1980s"></a>
+    <div class="section-header">1980s</div>
+    <ul>
+        <li title="GENRE: Superheroes, Noir">
+            <span class="entry-text"><b>Circle of Blood</b>, Steven Grant (1985)</span>
+            <span class="tag tag-country">US</span>
+            <span class="tag tag-media">COMICS</span>
+            <span class="tag tag-type">GRAPHIC NOVEL</span>
+            <span class="tag tag-status">COMPLETO</span>
+            <span class="tag tag-timeline">MODERN</span>
+        </li>
+    </ul>
+
+    <a name="1500s"></a>
+    <div class="section-header">1500s</div>
+    <ul>
+        <li title="GENRE: Political Philosophy">
+            <span class="entry-text"><b>Il Principe</b>, Niccolò Machiavelli (1532)</span>
+            <span class="tag tag-country">IT</span>
+            <span class="tag tag-media">LITERATURE</span>
+            <span class="tag tag-type">TREATISE</span>
+            <span class="tag tag-status">COMPLETO</span>
+            <span class="tag tag-timeline">RENAISSANCE</span>
         </li>
     </ul>
 
@@ -73,7 +90,7 @@
     <div class="section-header">Antichità</div>
     <ul>
         <li title="GENRE: Tragedy">
-            <span class="entry-text">Sofocle: <b>Antigone</b> (441 AC)</span>
+            <span class="entry-text"><b>Antigone</b>, Sofocle (441 AC)</span>
             <span class="tag tag-country">GR</span>
             <span class="tag tag-media">LITERATURE</span>
             <span class="tag tag-type">PLAY</span>
