@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Archivio Personale - Log</title>
+    <style>
+        body { font-family: "Times New Roman", Times, serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.5; background-color: #fdfdfd; }
+        h1 { font-size: 1.8rem; text-decoration: underline; text-align: center; }
+        
+        /* Menu Rapido per non scorrere all'infinito */
+        .nav-menu { text-align: center; margin-bottom: 40px; border: 1px solid #000; padding: 10px; background: #eee; }
+        .nav-menu a { margin: 0 10px; text-decoration: none; color: blue; font-weight: bold; }
+        .nav-menu a:hover { text-decoration: underline; }
+
+        .section-header { font-weight: bold; font-size: 1.3rem; margin-top: 40px; border-bottom: 2px solid #000; display: block; }
+        ul { list-style-type: square; padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        .comment { color: #666; font-size: 0.9rem; font-style: italic; }
+    </style>
+</head>
+<body>
+
+    <h1>LOG CRONOLOGICO DELLE LETTURE E VISIONI</h1>
+
+    <div class="nav-menu">
+        SALTA A: 
+        <a href="#2026">2026</a> | 
+        <a href="#2025">2025</a> | 
+        <a href="#antichita">ANTICHITÀ</a>
+    </div>
+
+    <a name="2026"></a>
+    <div class="section-header">2026</div>
+    <ul>
+        <li>Garth Ennis: <b>The Slavers</b> (2005) [Fumetto, USA] - Vale la pena: SI</li>
+        <li>Jim Lee: <b>Punisher War Journal</b> (1988) [Fumetto, USA] - Vale la pena: SI <span class="comment">(In lettura)</span></li>
+        <li>Brian K. Vaughan: <b>Saga</b> (2012) [Fumetto, USA] - Vale la pena: SI</li>
+    </ul>
+
+    <a name="2025"></a>
+    <div class="section-header">2025</div>
+    <ul>
+        <li>Frank Miller: <b>Batman: Il ritorno del Cavaliere Oscuro</b> (1986) [Fumetto, USA] - Vale la pena: SI</li>
+    </ul>
+
+    <a name="antichita"></a>
+    <div class="section-header">ANTICHITÀ</div>
+    <ul>
+        <li>Sofocle: <b>Antigone</b> (441 AC) [Teatro, Grecia] - Vale la pena: SI</li>
+        <li>Omero: <b>Odissea</b> (VIII sec. AC) [Poema, Grecia] - Vale la pena: SI</li>
+    </ul>
+
+    <p style="margin-top: 100px; font-size: 0.8rem; text-align: center;">
+        <a href="#">Torna in cima ↑</a>
+    </p>
+
+</body>
+</html>
